@@ -22,11 +22,10 @@ const router = createBrowserRouter([
 
 
 function App() {
+  
   return (
     <>
-
       <RouterProvider router={router} />
-
       <ToastContainer
         position="top-right"
         autoClose={5000}
@@ -40,7 +39,6 @@ function App() {
         theme="light"
         transition={Bounce}
       />
-
     </>
 
 
